@@ -22,41 +22,41 @@ class MyApp extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
             Container(
-              padding: EdgeInsets.all(25),
-              margin: EdgeInsets.all(22),
+              padding: const EdgeInsets.all(25),
+              margin: const EdgeInsets.all(22),
               color: Colors.amber,
               child: Transform(
-                child: Text('Example 1'),
+                child: const Text('Example 1'),
                 transform: Matrix4.rotationX(0.2),
                 alignment: FractionalOffset.center,
               ),
             ),
             Container(
-              padding: EdgeInsets.all(25),
-              margin: EdgeInsets.all(22),
+              padding: const EdgeInsets.all(25),
+              margin: const EdgeInsets.all(22),
               color: Colors.amber,
               child: Transform(
-                child: Text('Example 4'),
+                child: const Text('Example 4'),
                 transform: Matrix4.rotationX(0.2),
                 alignment: FractionalOffset.center,
               ),
             ),
             Container(
-              padding: EdgeInsets.all(25),
-              margin: EdgeInsets.all(22),
+              padding: const EdgeInsets.all(25),
+              margin: const EdgeInsets.all(22),
               color: Colors.amber,
               child: Transform(
-                child: Text('Example 3'),
+                child: const Text('Example 3'),
                 transform: Matrix4.rotationX(0.2),
                 alignment: FractionalOffset.center,
               ),
             ),
             Container(
-              padding: EdgeInsets.all(25),
-              margin: EdgeInsets.all(22),
+              padding: const EdgeInsets.all(25),
+              margin: const EdgeInsets.all(22),
               color: Colors.amber,
               child: Transform(
-                child: Text('Example 2'),
+                child: const Text('Example 2'),
                 transform: Matrix4.rotationX(0.2),
                 alignment: FractionalOffset.center,
               ),
